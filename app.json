@@ -1,4 +1,38 @@
 {
   "name": "Grubspot",
-  "displayName": "Grubspot"
+  "displayName": "Grubspot",
+  "slug": "grubspot",
+  "version": "1.0.1",
+  "orientation": "portrait",
+  "icon": "./grubspot-adaptive.png",
+  "userInterfaceStyle": "light",
+  "splash": {
+    "image": "./grubspot-splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#000"
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "app.grubspotapp.com",
+    "buildNumber": "7"
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./grubspot-adaptive.png",
+      "backgroundColor": "red"
+    }
+  },
+  "web": {
+    "favicon": "./grubspot-adaptive.png"
+  },
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "f70dc868-160e-4ecf-b0c7-39195c201fc8"
+      }
+    }
+  }
 }

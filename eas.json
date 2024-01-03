@@ -1,0 +1,29 @@
+{
+  "cli": {
+    "version": ">= 5.9.3"
+  },
+  "build": {
+    "development": {
+      "distribution": "internal",
+      "android": {
+        "gradleCommand": ":app:assembleDebug"
+      },
+      "ios": {
+        "buildConfiguration": "Debug"
+      }
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "omarjandali@omnacore.com",
+        "ascAppId": "6475321989",
+        "appleTeamId": "6248MU8UP2"
+      }
+    }
+  }
+}
